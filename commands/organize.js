@@ -8,8 +8,7 @@ let types = {
     app: ['exe', 'dmg', 'pkg', "deb"]
 }
 function organizefn(dirPath) {
-    // console.log("organize command implemnted for ", dirPath);
-    // 1. input -> directory path given
+ 
     console.log(chalk.bgBlueBright.inverse('File Are Now ! Organizing '));
     console.log(chalk.yellow('Welcome to the app!'));
     let destPath;
